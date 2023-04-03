@@ -6,29 +6,47 @@
 .logo_name{
 	color:white;
 	text-weight:bolder;
-	text-size:50px;
+	font-size:30px
 }
-
-.content.top{
+.top{
+	padding-left:20px;
 	display:flex;
-	flex-flow: wrap;
+	align:center;
+	
+	gap:250px;
+	padding-bottom:30px;
+}
+.media-icons{
+	display:flex;
+
+	gap:10px;
+}
+.media-icons img{
+	width:30px;
+	gap:1px;
 }
 .link h3{
 	color:white;
 }
 .link{
 	display:flex;
-	flex-flow:ro wrap;
+	flex-flow: wrap;
 	gap:10px;
 	justify-content:space-evenly;
+	padding-bottom:20px;
 	
 }
 .link-boxes{
 	display:flex;
-	flex-flow: wrap;
+	flex-flow:column wrap;
 	gap:10px;
 }
 .link-boxes a{
 	text-decoration:none;
 	color:#6D6D6D;
+}
+.bottom-details{
+	background-color:#2C303A;
+	padding:20px 20px;
+	color:white;
 }
